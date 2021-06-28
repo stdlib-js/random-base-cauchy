@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-cauchy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cauchy distributed pseudorandom numbers.",
   "license": "Apache-2.0",
   "author": {
