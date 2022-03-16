@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/random-base-cauchy",
+  "version": "0.0.0",
+  "description": "Cauchy distributed pseudorandom numbers.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/random-base-cauchy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "prng",
+    "rng",
+    "pseudorandom",
+    "random",
+    "rand",
+    "generator",
+    "seed",
+    "seedable",
+    "factory",
+    "cauchy",
+    "distribution",
+    "draw",
+    "heavy-tailed",
+    "location-scale",
+    "non-finite variance"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
