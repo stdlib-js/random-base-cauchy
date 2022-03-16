@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-cauchy",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Cauchy distributed pseudorandom numbers.",
   "license": "Apache-2.0",
   "author": {
@@ -48,6 +48,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-tan": "^0.0.x",
     "@stdlib/random-base-improved-ziggurat": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
