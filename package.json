@@ -48,7 +48,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.0.8",
     "@stdlib/math-base-special-tan": "^0.0.6",
     "@stdlib/random-base-improved-ziggurat": "^0.0.6",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14",
     "@stdlib/utils-constant-function": "^0.0.8",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.7",
