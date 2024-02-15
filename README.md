@@ -35,38 +35,32 @@ limitations under the License.
 
 > [Cauchy][cauchy] distributed pseudorandom numbers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-base-cauchy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-cauchy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-cauchy@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var cauchy = require( 'path/to/vendor/umd/random-base-cauchy/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-cauchy@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.cauchy;
-})();
-</script>
+var cauchy = require( '@stdlib/random-base-cauchy' );
 ```
 
 #### cauchy( x0, gamma )
@@ -403,13 +397,8 @@ var o = rand.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-cauchy@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var cauchy = require( '@stdlib/random-base-cauchy' );
 
 var seed;
 var rand;
@@ -436,11 +425,6 @@ rand = cauchy.factory( 2.0, 2.0, {
 for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -502,8 +486,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-base-cauchy.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-base-cauchy
 
-[test-image]: https://github.com/stdlib-js/random-base-cauchy/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/random-base-cauchy/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/random-base-cauchy/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/random-base-cauchy/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-base-cauchy/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-base-cauchy?branch=main
@@ -537,15 +521,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [cauchy]: https://en.wikipedia.org/wiki/Cauchy_distribution
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 <!-- <related-links> -->
 
-[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy/tree/umd
+[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy
 
-[@stdlib/random/iter/cauchy]: https://github.com/stdlib-js/random-iter-cauchy/tree/umd
+[@stdlib/random/iter/cauchy]: https://github.com/stdlib-js/random-iter-cauchy
 
-[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy/tree/umd
+[@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy
 
 <!-- </related-links> -->
 
