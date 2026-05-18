@@ -442,6 +442,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/cauchy`][@stdlib/random/array/cauchy]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Cauchy distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/cauchy`][@stdlib/random/iter/cauchy]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a Cauchy distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/cauchy`][@stdlib/random/streams/cauchy]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a Cauchy distribution.</span>
+-   <span class="package-name">[`@stdlib/random-cauchy`][@stdlib/random/cauchy]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a Cauchy distribution.</span>
 
 </section>
 
@@ -530,6 +531,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/cauchy]: https://github.com/stdlib-js/random-iter-cauchy
 
 [@stdlib/random/streams/cauchy]: https://github.com/stdlib-js/random-streams-cauchy
+
+[@stdlib/random/cauchy]: https://github.com/stdlib-js/random-cauchy
 
 <!-- </related-links> -->
 
